@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BankService.FcfsTimedQueue&lt;T&gt;">
+    <Position X="4" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EBQAAAAgAAAAgAAIAAAgACQgEgAEAiAEAAAQgABAAAA=</HashCode>
+      <FileName>FcfsTimedQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankService.BankTeller">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="BankService.BankTeller.TellerInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BankTeller.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <InheritanceLine Type="BankService.GraphicalElement" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="4.42" />
+        <Point X="4.25" Y="4.483" />
+        <Point X="6.688" Y="4.483" />
+        <Point X="6.688" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BSLAAAQkBKAGggCBBCIABiAAGAEEACCHAEAEAAAAEEA=</HashCode>
+      <FileName>BankTeller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankService.Customer">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="BankService.GraphicalElement" FixedFromPoint="true">
+      <Path>
+        <Point X="4.25" Y="4.42" />
+        <Point X="4.25" Y="4.483" />
+        <Point X="3" Y="4.483" />
+        <Point X="3" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAIgAAAAAAAEAAAABAgQAABBAAAAAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankService.Bank">
+    <Position X="13.25" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAqAABAFAgAGBjAQAAACBEEACAAAIUCIQAAAgEACAQA=</HashCode>
+      <FileName>Bank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankService.BankSimulationEngine">
+    <Position X="10.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACADBBUJCBE0AAgEAABAQEAAgAAAACMUAEUgoAAAg=</HashCode>
+      <FileName>BankSimulationEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankService.ArrivalEvent">
+    <Position X="0.5" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAEAAgBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArrivalEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankService.DiscreteEvent">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="BankService.GraphicalElement" ManuallyRouted="true">
+      <Path>
+        <Point X="4.25" Y="4.42" />
+        <Point X="1.25" Y="4.42" />
+        <Point X="1.25" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DiscreteEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankService.TimeSortedEventQueue">
+    <Position X="16" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAIABAAAABEAABAgAAAAAQAAAAAAgACAAAAAAAAAAA=</HashCode>
+      <FileName>TimeSortedEventQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankService.ServiceDoneEvent">
+    <Position X="2.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgIAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceDownEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankService.GraphicalElement">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEKQAAAAAAAAAAAEAAAAAAEAAQQAAAgAASACAAAAA=</HashCode>
+      <FileName>GraphicalElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="BankService.enumBankTellersQueueBehavior">
+    <Position X="13.75" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>BankQueueBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BankService.enumClickType">
+    <Position X="16.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>ClickType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微軟正黑體" Size="9" />
+</ClassDiagram>
